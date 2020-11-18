@@ -10,7 +10,9 @@ Usually here would be a real project with real source and other stuff. Also such
 This example repo has a GitHub workflow associated, which executes a job once the Threagile model file (threagile.yaml) changes on a push (see the [.github/workflows/main.yaml](.github/workflows/main.yaml) file for this).
 
 
-This workflow executes the *run-threagile-action* (published on the GitHub action's marketplace as open-source) to work on the threagile.yaml threat model file and generate the data-flow-diagram (DFD), threat model report (PDF), Excel and JSON exports, etc. on every change of threagile.yaml. The full set of generated results are preserved as the action's artifcats (see the actions tab). Additionally the data-flow-diagram and threat model report are also pushed to the repo (in the folder threagile/output) for further automatic referencing from within this README.md (or any other markdown file) in the repo.
+This workflow executes the *run-threagile-action* (published on the GitHub actions marketplace as open-source) to work on the threagile.yaml threat model file and generate the data-flow-diagram (DFD), threat model report (PDF), Excel and JSON exports, etc. on every change of threagile.yaml. 
+
+The full set of generated results are preserved as the action's artifcats (see the actions tab). Additionally the data-flow-diagram and threat model report are also pushed to the repo (in the folder threagile/output) for further automatic referencing from within this README.md (or any other markdown file) in the repo.
 
 *See below... ;)*
 
