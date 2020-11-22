@@ -2,7 +2,7 @@
 
 Example of how to integrate Threagile into GitHub workflows:
 
-This repo acts as some sort of template to see the integration of Threagile into a GitHub workflow in action.
+This example repo acts as some sort of template to see the integration of Threagile into a GitHub workflow in action. Use and modify according to what fits best within your workflow.
 Usually here would be a real project with real source and other stuff. Also such a repo contains a **threagile.yaml** file, which contains the threat model input (see the Threagile docs for info about this).
 *Here we're using the Threagile example YAML file as an example threat model input.*
 
@@ -12,7 +12,9 @@ This example repo has a GitHub workflow associated, which executes a job once th
 
 This workflow executes the *run-threagile-action* (published on the GitHub actions marketplace as open-source) to work on the threagile.yaml threat model file and generate the data-flow-diagram (DFD), threat model report (PDF), Excel and JSON exports, etc. on every change of threagile.yaml. 
 
-The full set of generated results are preserved as the action's artifcats (see the actions tab). Additionally the data-flow-diagram and threat model report are also pushed to the repo (in the folder threagile/output) for further automatic referencing from within this README.md (or any other markdown file) in the repo.
+The full set of generated results are preserved as the action's artifcats (see the actions tab). Additionally the data-flow-diagram and threat model report are saved within the source tree (in the folder threagile/output) for further automatic referencing from within this README.md (or any other markdown file) in the repo.
+
+Feel free to modify the workflow according to what fits your scenario best.
 
 *See below... ;)*
 
